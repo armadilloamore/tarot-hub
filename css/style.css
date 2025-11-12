@@ -73,18 +73,18 @@ header {
 }
 
 .deck-button span {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .deck-button small {
   display: block;
   font-family: 'Quicksand', sans-serif;
-  font-weight: normal;
-  font-size: 0.85rem;
+  font-weight: 500;
+  font-size: 1rem;
   margin-top: 0.25rem;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 footer {
