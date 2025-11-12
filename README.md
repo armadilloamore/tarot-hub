@@ -20,32 +20,6 @@ A mobile-friendly, visually intuitive web app for drawing cards from three tarot
 
 ---
 
-## 🗺️ Site Structure
-
-index.html ← Homepage (choose a deck)
-css/style.css ← Custom styles using purple palette
-rws-major/
-├── index.html ← Info page for Major Arcana deck
-├── draw-1.html ← Draw 1 card from Major Arcana
-├── draw-3.html ← Draw 3 cards (future)
-└── browse.html ← Static gallery of cards
-
-rws-full/
-└── ... (same structure, future support)
-
-seasons/
-└── ... (same structure, future support)
-
-js/
-└── main.js ← Script to draw cards, build table views, etc.
-
-data/
-└── rws-major.json ← 22-card deck data with Jungian fields
-└── rws-full.json ← Full 78-card tarot deck
-└── seasons.json ← Custom oracle deck
-
----
-
 ## 🎯 Features
 
 - Draw 1-card readings from each deck
