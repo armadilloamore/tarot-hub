@@ -52,7 +52,7 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 .deck-button:hover {
@@ -76,6 +76,8 @@ header {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.4;
+  display: block;
+  margin-top: 1rem;
 }
 
 .deck-button small {
