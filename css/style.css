@@ -9,10 +9,14 @@
 
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: var(--light-purple);
   color: var(--deep-purple);
   text-align: center;
+}
+
+h1, h2, h3, .deck-button span {
+  font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -27,6 +31,7 @@ header {
   margin-top: 0.5rem;
   font-weight: 400;
   color: #f3e5f5;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .deck-grid {
@@ -74,6 +79,7 @@ header {
 
 .deck-button small {
   display: block;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 0.85rem;
   margin-top: 0.25rem;
@@ -85,5 +91,5 @@ footer {
   color: #fff;
   padding: 1rem;
   font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif;
 }
-
