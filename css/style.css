@@ -117,15 +117,27 @@ header {
 }
 
 .non-clickable {
-  pointer-events: none;        /* cannot be clicked */
-  opacity: 1;                  /* looks normal */
-  transition: none;   /* stops animations */
+  pointer-events: none;
+  opacity: 1;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  border-color: var(--mid-purple) !important;
+  transition: none;
 }
 
 .non-clickable:hover {
-  background-color: var(--mid-purple);  /* prevent hover color change */
-  border-color: var(--pastel-azure);
+  background-color: var(--mid-purple);
+  border-color: var(--mid-purple);
   color: var(--deep-purple);
+}
+
+.your-deck-label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.85;
+  margin-top: 1rem;
 }
 
 footer {
