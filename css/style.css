@@ -34,7 +34,6 @@ h1, h2, h3, .deck-button span {
 .logo-link:hover {
   transform: scale(1.05);
   filter: brightness(1.1);
-  box-shadow: 0 0 12px var(--pastel-azure);
 }
 
 header {
