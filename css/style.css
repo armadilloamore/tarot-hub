@@ -20,11 +20,20 @@ h1, h2, h3, .deck-button span {
   font-family: 'Playfair Display', serif;
 }
 
+.site-logo {
+  width: 180px; /* adjust to your logo’s best visual size */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 header {
   background: linear-gradient(135deg, var(--primary-purple), var(--dark-purple));
   color: white;
   padding: 2rem 1rem 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subtitle {
