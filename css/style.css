@@ -116,6 +116,18 @@ header {
   margin-top: 0.4rem;
 }
 
+.non-clickable {
+  pointer-events: none;        /* cannot be clicked */
+  opacity: 1;                  /* looks normal */
+  transition: none;   /* stops animations */
+}
+
+.non-clickable:hover {
+  background-color: var(--mid-purple);  /* prevent hover color change */
+  border-color: var(--pastel-azure);
+  color: var(--deep-purple);
+}
+
 footer {
   background-color: var(--dark-purple);
   color: #fff;
