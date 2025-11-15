@@ -153,6 +153,24 @@ header a:hover {
   box-shadow: 0 0 20px rgba(148, 207, 231, 0.8);
 }
 
+.card-result {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image {
+  width: 260px;
+  height: auto;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 footer {
   background-color: var(--dark-purple);
   color: #fff;

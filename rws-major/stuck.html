@@ -29,11 +29,17 @@
 
   <main>
 
-    <!-- Reading Content Placeholder -->
-    <div style="padding: 2rem; font-size: 1.2rem; color: var(--deep-purple);">
-      <p>Click below to draw a card.</p>
+   <div class="draw-container">
+  <p class="instruction">Click below to draw a card.</p>
       <a href="#" class="deck-button" style="max-width:300px; margin: 0 auto;">Draw a Card</a>
-    </div>
+  <div id="card-result" class="card-result" style="display:none;">
+    <img id="card-image" class="card-image" alt="Card Image">
+    <h2 id="card-title"></h2>
+    <p id="card-meaning"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
 
   </main>
 
