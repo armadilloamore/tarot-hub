@@ -45,6 +45,14 @@ header {
   align-items: center;
 }
 
+header a {
+  color: var(--light-purple);
+}
+
+header a:hover {
+  color: white; /* optional: brighter hover effect */
+}
+
 .subtitle {
   font-size: 1rem;
   margin-top: 0.5rem;
