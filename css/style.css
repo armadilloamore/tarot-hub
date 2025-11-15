@@ -140,6 +140,10 @@ header {
   margin-top: 1rem;
 }
 
+.rounded {
+  border-radius: 20px;
+}
+
 footer {
   background-color: var(--dark-purple);
   color: #fff;
