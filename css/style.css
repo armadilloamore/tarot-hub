@@ -149,8 +149,11 @@ header a:hover {
 }
 
 .rounded {
-  border-radius: 20px;
+  width: 150px;     /* adjust size here */
+  height: 150px;    /* keep square ratio */
+  border-radius: 10px;
   box-shadow: 0 0 20px rgba(148, 207, 231, 0.8);
+  object-fit: cover; /* keeps it neat */
 }
 
 .card-result {
