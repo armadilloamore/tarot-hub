@@ -174,22 +174,48 @@ header a:hover {
 }
 
 .jungian-table {
-  border-collapse: collapse;
   width: 100%;
   font-size: 0.95rem;
   color: var(--deep-purple);
+  border-collapse: collapse; /* important for borders to display properly */
 }
 
 .jungian-table td {
-  padding: 0.4rem 0.2rem;
+  padding: 0.8rem 0.4rem; /* spacing between elements */
   vertical-align: top;
 }
 
 .jungian-table td:first-child {
   font-weight: bold;
-  width: 35%;
+  width: 38%;
+  color: var(--accent-purple);
 }
 
+.jungian-table tr {
+  border-bottom: 1px solid var(--pastel-azure);
+  
+}
+
+.jungian-table tr:not(:last-child) td {
+  border-bottom: 1px solid var(--pastel-azure); /* SOFT LINE */
+}
+
+/* Larger desktop view */
+@media (min-width: 900px) {
+  .card-result {
+    max-width: 750px;
+    padding: 3rem;
+  }
+
+  .jungian-table td {
+    font-size: 1.1rem;
+    padding: 0.8rem 0.4rem;
+  }
+
+  .jungian-table {
+    border-spacing: 0 0.8rem; /* more space between rows */
+  }
+}
 
 footer {
   background-color: var(--dark-purple);
