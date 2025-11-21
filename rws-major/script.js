@@ -69,6 +69,13 @@ table.style.display = "table";
 
 
     resultBox.style.display = "block";
+
+        // ⭐ SHOW THE "VIEW ALL JUNGIANS" LINK ⭐
+    const viewAll = document.getElementById("view-all-jungian");
+    if (viewAll) {
+      viewAll.style.display = "block";
+    }
+    
     resultBox.scrollIntoView({ behavior: "smooth" });
   });
 });
