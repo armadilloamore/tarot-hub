@@ -170,9 +170,26 @@ header a:hover {
 .card-image {
   width: 260px;
   height: auto;
-  border-radius: 1.5rem;
   margin-bottom: 1rem;
 }
+
+.jungian-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+  color: var(--deep-purple);
+}
+
+.jungian-table td {
+  padding: 0.4rem 0.2rem;
+  vertical-align: top;
+}
+
+.jungian-table td:first-child {
+  font-weight: bold;
+  width: 35%;
+}
+
 
 footer {
   background-color: var(--dark-purple);
