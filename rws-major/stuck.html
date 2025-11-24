@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Why Am I Stuck? – Major Arcana</title>
 
-  <!-- Correct stylesheet path -->
+  <!-- Correct stylesheet path from inside /rws-major/ -->
   <link rel="stylesheet" href="../css/style.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
@@ -18,25 +18,38 @@
     <a href="../index.html" class="logo-link">
       <img src="../images/logo.webp" alt="Armadillo Amore Logo" class="site-logo">
     </a>
-      <div class="your-deck-label">Your Reading</div>
-      <!-- Your Deck (Non-clickable deck card) -->
-      <img src="../images/icons/stuck-icon.webp" alt="Stuck Icon" class="rounded"/>
-    <h1>Why Am I Stuck?</h1>
-    <p class="subtitle">Identify Blocks • Clear Your Path</p>
-    <a href="select-reading.html"><p>Choose a different reading</p></a>
 
+    <div class="your-deck-label">Your Reading</div>
+
+    <!-- Deck Icon -->
+    <img src="../images/icons/stuck-icon.webp" alt="Stuck Icon" class="rounded" />
+
+    <h1>Why Am I Stuck?</h1>
+    <p class="subtitle">Identify Blocks & Clear Your Path</p>
+
+    <a href="select-reading.html">
+      <p>Choose a different reading</p>
+    </a>
   </header>
 
   <main>
 
-   <div class="draw-container"  style="padding: 2rem; font-size: 1.2rem; color: var(--deep-purple);">
+<div class="draw-container" style="padding: 2rem; font-size: 1.2rem; color: var(--deep-purple);">
   <p class="instruction">Click below to draw a card.</p>
-      <a href="#" class="deck-button" style="max-width:300px; margin: 0 auto;">Draw a Card</a>
+
+  <a href="#" id="draw-btn" class="deck-button" style="max-width:300px; margin: 0 auto;">
+    Draw a Card
+  </a>
+
+  <!-- Card Result -->
   <div id="card-result" class="card-result" style="display:none;">
     <img id="card-image" class="card-image" alt="Card Image">
     <h2 id="card-title"></h2>
-    <p id="card-meaning"></p>
+
+    <!-- Meaning Container (Stuck deck uses this) -->
+    <div id="card-meaning" style="text-align:left; margin-top:1.5rem; font-size:1.1rem; line-height:1.5;"></div>
   </div>
+
 </div>
 
 <script src="script.js"></script>
@@ -49,4 +62,3 @@
 
 </body>
 </html>
-
