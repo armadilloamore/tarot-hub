@@ -1,12 +1,465 @@
 [
   {
-    "name": "The Fool",
-    "image": "../images/rws-major/0-The-Fool.webp",
-    "meaning": "In Jungian terms, The Fool represents the Innocent — the beginning of individuation."
-  },
-  {
-    "name": "The Magician",
-    "image": "../images/rws-major/1-The-Magician.webp",
-    "meaning": "The Magician symbolizes conscious will and the awakening of personal power."
+  "name": "The Fool",
+  "image": "../images/rws-major/0-The-Fool.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re hesitating at the threshold of a new beginning. Part of you longs to leap, but another part fears appearing naïve, unprepared, or foolish. Your system may be holding you back out of a desire to stay safe within the known.",
+    "psychological_frame": "This is the individuation stage where innocence wants to evolve into experience. The Fool represents trust in the emerging path — but your ego may be resisting the vulnerability that comes with starting fresh.",
+    "resistance_points": [
+      "Fear of making the wrong first step",
+      "Overthinking instead of beginning",
+      "Worry about judgment from others",
+      "Waiting for perfect certainty or timing"
+    ],
+    "coaching_question": "What step have I been avoiding because I’m afraid to begin imperfectly?",
+    "practice": [
+      "Choose one small beginner’s action and do it today.",
+      "Reduce the goal to its simplest, most playful version.",
+      "Say aloud: 'I’m allowed to start before I feel ready.'"
+    ],
+    "core_insight": "Beginnings require innocence — not expertise."
   }
+},
+  {
+  "name": "The Magician",
+  "image": "../images/rws-major/1-The-Magician.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re not fully claiming your own agency. Instead of directing your will, you may be scattering it, doubting it, or waiting for external conditions to give you permission. A part of you might be afraid of your own power or potential.",
+    "psychological_frame": "This stage of individuation asks you to align intention, clarity, and action. The Magician symbolizes conscious creation — but resistance shows up when internal doubts keep you from believing you can shape your world.",
+    "resistance_points": [
+      "Underestimating your abilities",
+      "Procrastinating on something that matters",
+      "Feeling like you need more tools or mastery",
+      "Letting others’ expectations override your inner direction"
+    ],
+    "coaching_question": "What power or capability am I pretending I don’t have?",
+    "practice": [
+      "Set one clear intention in writing.",
+      "Decide what first action aligns with that intention.",
+      "Remove one distraction that dilutes your focus."
+    ],
+    "core_insight": "Your life shifts when you choose to direct your power instead of waiting for approval."
+  }
+},
+{
+  "name": "The High Priestess",
+  "image": "../images/rws-major/2-The-High-Priestess.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re disconnected from your intuition or ignoring inner signals that contradict what others expect from you. Your system may be overwhelmed by noise — information, opinions, external pressures — making it difficult to trust your inner knowing.",
+    "psychological_frame": "This individuation stage calls you inward. The High Priestess represents the unconscious guiding you toward deeper truth. Resistance surfaces when stillness feels uncomfortable, or when intuitive answers conflict with what you wish were true.",
+    "resistance_points": [
+      "Avoiding quiet because answers might require change",
+      "Doubting your inner voice",
+      "Wanting logical certainty over intuitive truth",
+      "Overconsuming information instead of listening inward"
+    ],
+    "coaching_question": "What inner truth have I been avoiding because it asks something of me?",
+    "practice": [
+      "Sit in silence for 2–3 minutes and notice one intuitive whisper.",
+      "Journal the first truth that arises without editing.",
+      "Reduce external input for 24 hours to reconnect with your inner voice."
+    ],
+    "core_insight": "Your inner guidance is already speaking — the key is making space to hear it."
+  }
+},
+{
+  "name": "The Empress",
+  "image": "../images/rws-major/3-The-Empress.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re withholding your creativity, comfort, or self-nourishment. A part of you may feel undeserving of abundance or afraid that if you soften, you’ll lose control. You could also be giving too much and receiving too little.",
+    "psychological_frame": "This individuation moment asks you to mother yourself — to validate your needs, express your creativity, and allow yourself to be supported. Resistance often comes from conditioning that taught you to minimize or ignore your own needs.",
+    "resistance_points": [
+      "Difficulty receiving support or care",
+      "Feeling guilty for resting or slowing down",
+      "Fearing that comfort equals complacency",
+      "Creative ideas you don’t pursue"
+    ],
+    "coaching_question": "What nourishment or support am I denying myself?",
+    "practice": [
+      "Give yourself one act of real comfort or rest.",
+      "Start a small creative project with no goal except expression.",
+      "Say aloud: 'Receiving strengthens me, not weakens me.'"
+    ],
+    "core_insight": "Nurturing yourself unlocks your creative flow."
+  }
+},
+{
+  "name": "The Emperor",
+  "image": "../images/rws-major/4-The-Emperor.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because your inner structure is either too rigid or not defined enough. Part of you may fear taking authority over your life — or you may be clinging to control so tightly that nothing new can grow.",
+    "psychological_frame": "This individuation phase asks you to develop healthy internal boundaries and sovereignty. The Emperor is the archetype of self-definition. Resistance appears when leadership feels intimidating or when past experiences taught you that authority is unsafe.",
+    "resistance_points": [
+      "Fear of responsibility or leadership",
+      "Over-controlling or under-directed energy",
+      "Avoiding boundaries to keep the peace",
+      "Feeling overwhelmed by important decisions"
+    ],
+    "coaching_question": "What part of my life is asking me to step into leadership?",
+    "practice": [
+      "Define one boundary you need to set.",
+      "Make one clear decision you’ve been postponing.",
+      "Create a simple 1–3 step plan to move forward."
+    ],
+    "core_insight": "Structure is not confinement — it’s the foundation of freedom."
+  }
+},
+{
+  "name": "The Hierophant",
+  "image": "../images/rws-major/5-The-Hierophant.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re following rules, traditions, beliefs, or expectations that no longer match who you’re becoming. A part of you may fear breaking from the familiar path or disappointing the authority figures internalized in your psyche.",
+    "psychological_frame": "This individuation stage centers on questioning inherited truths. The Hierophant symbolizes meaning-making — but when blocked, he represents outdated dogma or unconscious loyalty to systems you’ve outgrown.",
+    "resistance_points": [
+      "Feeling guilty for wanting something different",
+      "Allowing old beliefs to dictate present choices",
+      "Fear of being unconventional or rebellious",
+      "Confusing safety with conformity"
+    ],
+    "coaching_question": "What belief or rule am I following that no longer supports my growth?",
+    "practice": [
+      "Name one inherited belief that feels restrictive.",
+      "Rewrite it into a personal truth that empowers you.",
+      "Do one small action today that aligns with your authentic values."
+    ],
+    "core_insight": "Your truth evolves — and you’re allowed to follow it."
+  }
+},
+{
+  "name": "The Lovers",
+  "image": "../images/rws-major/6-The-Lovers.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re torn between two internal desires — the path of comfort versus the path of growth, the familiar self versus the emerging self. Part of you longs for alignment while another part clings to an old attachment or identity.",
+    "psychological_frame": "This individuation moment asks you to integrate inner opposites: desire and duty, freedom and connection, authenticity and approval. The Lovers is about inner alignment first — external alignment follows.",
+    "resistance_points": [
+      "Difficulty choosing between two meaningful options",
+      "Confusing people-pleasing with love",
+      "Staying loyal to outdated values or relationships",
+      "Fear of making a choice that closes another door"
+    ],
+    "coaching_question": "What inner value do I need to honor to move forward?",
+    "practice": [
+      "Write down the two paths you feel torn between.",
+      "Identify the deeper value beneath each path.",
+      "Choose one small action that honors the truest value."
+    ],
+    "core_insight": "Clarity comes when your choices match your inner truth."
+  }
+},
+{
+  "name": "The Chariot",
+  "image": "../images/rws-major/7-The-Chariot.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because your willpower is divided — one part of you wants to move forward while another part hesitates or pulls in a different direction. This inner friction creates the sense that momentum keeps slipping away no matter how hard you try.",
+    "psychological_frame": "This stage of individuation requires inner coherence. The Chariot symbolizes unified direction — ego and instinct moving together. Resistance arises when fear, doubt, or conflicting desires scatter your energy.",
+    "resistance_points": [
+      "Feeling pulled in two directions",
+      "Lack of clarity about your destination",
+      "Starting strong then losing momentum",
+      "Avoiding emotional work underlying your goals"
+    ],
+    "coaching_question": "What part of me is pulling in the opposite direction — and why?",
+    "practice": [
+      "Name your primary goal for the next 30 days.",
+      "Identify one behavior that supports this goal and one that undermines it.",
+      "Commit to one supportive behavior daily."
+    ],
+    "core_insight": "Momentum comes from aligning all parts of yourself with the same direction."
+  }
+},
+{
+  "name": "Strength",
+  "image": "../images/rws-major/8-Strength.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re using force rather than compassion toward yourself. You might be trying to ‘push through’ emotions, habits, or fears — but real progress requires gentleness, patience, and inner regulation, not self-pressure.",
+    "psychological_frame": "This individuation moment calls for inner taming — meeting your instincts and vulnerabilities with presence rather than judgment. Strength is about compassionate courage. Resistance appears when you treat your inner world as something to conquer.",
+    "resistance_points": [
+      "Being harsh or critical toward yourself",
+      "Impatience with your own healing process",
+      "Feeling weak for having emotions or needs",
+      "Avoiding vulnerability because it feels unsafe"
+    ],
+    "coaching_question": "How can I approach myself with more gentleness right now?",
+    "practice": [
+      "Place a hand over your heart and take three slow breaths.",
+      "Replace one self-critical thought with a compassionate reframe.",
+      "Do one small act of self-care you usually dismiss as unnecessary."
+    ],
+    "core_insight": "Softness toward yourself creates the strength to move forward."
+  }
+},
+{
+  "name": "The Hermit",
+  "image": "../images/rws-major/9-The-Hermit.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re avoiding the deeper inner work that would give you clarity. Part of you may fear what you’ll discover in solitude — or fear the loneliness that introspection sometimes brings. You might also be withdrawing too much, using isolation as protection instead of illumination.",
+    "psychological_frame": "This individuation stage invites inner truth-seeking. The Hermit represents soul-guided insight — the wisdom that emerges when you step back from noise. Resistance appears when solitude feels uncomfortable or when the truth you sense requires change.",
+    "resistance_points": [
+      "Avoiding time alone with your thoughts",
+      "Filling space with distractions",
+      "Fear that introspection will reveal difficult truths",
+      "Using isolation to hide rather than grow"
+    ],
+    "coaching_question": "What truth is waiting for me in the quiet?",
+    "practice": [
+      "Spend 5–10 minutes in intentional silence today.",
+      "Ask yourself one direct question and write the first answer that arises.",
+      "Turn off one unnecessary source of noise or distraction."
+    ],
+    "core_insight": "Your inner light can’t guide you if you never turn toward it."
+  }
+},
+{
+  "name": "Wheel of Fortune",
+  "image": "../images/rws-major/10-Wheel-of-Fortune.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re resisting change or trying to control a cycle that is meant to unfold on its own. Part of you may fear losing stability, or you may be waiting for the perfect moment instead of moving with the rhythm of life.",
+    "psychological_frame": "This individuation phase teaches surrender to larger forces — timing, cycles, and fate. The Wheel symbolizes the dance between personal agency and life’s natural turning. Resistance comes from clinging to the past or fearing the unpredictability of the future.",
+    "resistance_points": [
+      "Wanting certainty before acting",
+      "Fighting a chapter that is clearly shifting",
+      "Believing momentum must come from willpower alone",
+      "Feeling powerless when life changes suddenly"
+    ],
+    "coaching_question": "Where am I trying to control what is meant to unfold naturally?",
+    "practice": [
+      "Identify one change already happening — name it without resisting it.",
+      "Take one small step with the current instead of against it.",
+      "Release one expectation that no longer fits the moment."
+    ],
+    "core_insight": "Life moves in cycles — your power is in how you meet the turning."
+  }
+},
+{
+  "name": "Justice",
+  "image": "../images/rws-major/11-Justice.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re trying to make a decision without acknowledging the full truth — your feelings, motives, or past patterns. You may also be holding yourself to impossible standards, overanalyzing, or waiting for complete certainty before choosing a path.",
+    "psychological_frame": "This individuation stage requires radical honesty with oneself. Justice represents clarity, accountability, and inner alignment. Resistance appears when you avoid a truth that would force a shift in direction, boundaries, or identity.",
+    "resistance_points": [
+      "Overthinking instead of deciding",
+      "Avoiding accountability for a repeating pattern",
+      "Trying to make a perfect or consequence-free decision",
+      "Ignoring emotional truth in favor of logic alone"
+    ],
+    "coaching_question": "What truth am I avoiding because it would require me to choose differently?",
+    "practice": [
+      "Write down the decision you're facing and list the real factors influencing you.",
+      "Identify the most honest choice, not the easiest.",
+      "Take one action that brings your behavior into alignment with your truth."
+    ],
+    "core_insight": "Clarity arrives when you tell yourself the whole truth."
+  }
+},
+{
+  "name": "The Hanged Man",
+  "image": "../images/rws-major/12-The-Hanged-Man.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re trying to force forward movement in a situation that actually requires surrender, patience, or a shift in perspective. Part of you may fear stopping, slowing down, or releasing control — especially if your worth feels tied to productivity.",
+    "psychological_frame": "This individuation stage teaches the value of suspension — pausing long enough to see from a new angle. The Hanged Man represents ego loosening rather than failure. Resistance appears when you equate not acting with losing.",
+    "resistance_points": [
+      "Impatience with a slow or unclear process",
+      "Forcing solutions instead of allowing clarity",
+      "Fear of stillness or pausing",
+      "Discomfort with uncertainty or non-action"
+    ],
+    "coaching_question": "What happens if I allow this situation to unfold instead of trying to control it?",
+    "practice": [
+      "Identify one area where you can release control today.",
+      "Pause before acting — even for 10 seconds — and breathe.",
+      "Ask yourself: 'What new perspective is this delay trying to reveal?'"
+    ],
+    "core_insight": "Growth often requires suspension, not speed."
+  }
+},
+{
+  "name": "Death",
+  "image": "../images/rws-major/13-Death.webp",
+  "meaning": {
+    "internal_block": "Your system is signaling that a chapter is complete. You may be stuck because you're trying to solve problems that belong to a former version of you. The next step requires releasing an outdated role or expectation.",
+    "psychological_frame": "This is the individuation pivot point — when your identity must adjust to match your soul's trajectory. Evolution requires pruning. Death symbolizes transformation through letting go, not loss.",
+    "resistance_points": [
+      "Staying loyal to old versions of yourself",
+      "Avoiding conflict or disappointing others",
+      "Fear of entering unfamiliar territory",
+      "Belief that letting go is failure"
+    ],
+    "coaching_question": "What responsibility or identity have I outgrown?",
+    "practice": [
+      "Write a closure sentence describing what is ending.",
+      "Set a date to complete the letting-go action.",
+      "Recommit to the version of yourself you're becoming."
+    ],
+    "core_insight": "Transition is not loss — it’s alignment."
+  }
+},
+{
+  "name": "Temperance",
+  "image": "../images/rws-major/14-Temperance.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re moving in extremes — all or nothing, too fast or too slow, overworking then collapsing, giving too much then withdrawing completely. Your system may be overwhelmed, trying to find a middle path but not knowing how to stabilize.",
+    "psychological_frame": "This individuation stage teaches integration. Temperance represents harmony between opposites — instinct and reason, rest and action, vulnerability and strength. Resistance appears when inner imbalance feels familiar or when moderation feels not enough.",
+    "resistance_points": [
+      "Overcorrecting instead of adjusting",
+      "Seeing choices in black-or-white terms",
+      "Trying to fix everything at once",
+      "Neglecting emotional regulation"
+    ],
+    "coaching_question": "What would a balanced, middle-way step look like here?",
+    "practice": [
+      "Identify the two extremes pulling you.",
+      "Name the midpoint between them.",
+      "Choose one action that represents gentle moderation."
+    ],
+    "core_insight": "Small, steady adjustments create real transformation."
+  }
+},
+{
+  "name": "The Devil",
+  "image": "../images/rws-major/15-The-Devil.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you're entangled in a pattern that provides short-term comfort but long-term stagnation. This could be a coping mechanism, an attachment, a belief, or a habit that keeps you feeling safe while quietly limiting your freedom.",
+    "psychological_frame": "This individuation stage involves confronting shadow desires, fear-based choices, and unconscious bonds. The Devil represents the illusions we cling to — especially the ones built from past wounds. Resistance appears when letting go feels threatening to your identity or safety.",
+    "resistance_points": [
+      "Staying in a familiar but limiting pattern",
+      "Believing you’re powerless to change",
+      "Avoiding discomfort, conflict, or independence",
+      "Numbing instead of feeling or confronting the truth"
+    ],
+    "coaching_question": "What attachment or habit is giving me comfort but costing me freedom?",
+    "practice": [
+      "Identify one behavior or belief that keeps you small.",
+      "Replace it with a tiny alternative choice today.",
+      "Say aloud: 'I am not trapped — the door is already open.'"
+    ],
+    "core_insight": "Your chains are illusions — you become free the moment you choose differently."
+  }
+},
+{
+  "name": "The Tower",
+  "image": "../images/rws-major/16-The-Tower.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re trying to hold together something that is already collapsing — an identity, belief, relationship, or structure that no longer supports your growth. Part of you may fear the fallout of letting truth break through, so you cling harder even as the cracks widen.",
+    "psychological_frame": "This individuation stage involves the dismantling of false frameworks — the ego’s earthquake that reveals what is real. The Tower represents necessary disruption. Resistance appears when you fight the breakdown instead of allowing the breakthrough.",
+    "resistance_points": [
+      "Denying what’s clearly changing",
+      "Trying to fix something meant to end",
+      "Fearing emotional upheaval",
+      "Clinging to stability at any cost"
+    ],
+    "coaching_question": "What truth have I been avoiding because it would require everything to change?",
+    "practice": [
+      "Acknowledge one structure in your life that feels unstable.",
+      "Name the truth you’ve been afraid to admit.",
+      "Let one piece that’s already falling go — consciously."
+    ],
+    "core_insight": "When false foundations crumble, your true path is revealed."
+  }
+},
+{
+  "name": "The Star",
+  "image": "../images/rws-major/17-The-Star.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’ve lost contact with your inner hope, vision, or sense of direction. A part of you may feel exhausted, disillusioned, or unsure whether healing is truly possible. You might also be minimizing your gifts or doubting your future potential.",
+    "psychological_frame": "This individuation moment asks you to reconnect with your deeper essence — the part of you that knows you are guided, worthy, and capable of renewal. The Star symbolizes spiritual recalibration. Resistance emerges when hope feels dangerous or when vulnerability feels unsafe.",
+    "resistance_points": [
+      "Difficulty believing things will improve",
+      "Feeling disconnected from inspiration or purpose",
+      "Self-doubt about your gifts or path",
+      "Grieving something you haven’t fully acknowledged"
+    ],
+    "coaching_question": "What part of me is asking to believe in possibility again?",
+    "practice": [
+      "Write down one dream you haven’t allowed yourself to imagine.",
+      "Do one action that reconnects you with beauty or inspiration.",
+      "Say aloud: 'I am allowed to heal. I am allowed to hope again.'"
+    ],
+    "core_insight": "Hope is not naive — it’s a compass pointing you forward."
+  }
+},
+{
+  "name": "The Moon",
+  "image": "../images/rws-major/18-The-Moon.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re moving through uncertainty, projection, or emotional fog. Part of you may be overwhelmed by fears, memories, or inner narratives that distort reality. This card appears when your subconscious is louder than your conscious clarity.",
+    "psychological_frame": "This individuation stage is about navigating the shadow realm — dreams, intuition, fears, and unconscious patterns. The Moon represents emotional depth and psychic truth. Resistance comes when you try to force clarity instead of listening to what your inner world is revealing.",
+    "resistance_points": [
+      "Fear of being misled or making a wrong choice",
+      "Overreacting to imagined outcomes",
+      "Difficulty distinguishing intuition from anxiety",
+      "Old wounds resurfacing and clouding the present"
+    ],
+    "coaching_question": "What fear or story is influencing me that may not actually be true?",
+    "practice": [
+      "Name your current fear and ask: 'What’s real? What’s imagined?'",
+      "Spend 1–2 minutes breathing into your lower belly to calm the nervous system.",
+      "Write down the intuitive whisper beneath the loud anxiety."
+    ],
+    "core_insight": "Clarity returns when you stop fighting the unknown and start listening within it."
+  }
+},
+{
+  "name": "The Sun",
+  "image": "../images/rws-major/19-The-Sun.webp",
+  "meaning": {
+    "internal_block": "You may feel stuck because you’re dimming your light — downplaying your joy, clarity, or authentic self-expression. Part of you may fear being ‘too much,’ too visible, too successful, or too different from the people around you. A deeper part may even believe joy is unsafe or temporary.",
+    "psychological_frame": "This individuation moment asks you to claim your vitality and celebrate your essence. The Sun represents confidence and inner radiance. Resistance shows up when old conditioning taught you to shrink, mask, or limit your brightness to stay acceptable.",
+    "resistance_points": [
+      "Minimizing your achievements or gifts",
+      "Fear of attention or visibility",
+      "Distrusting happiness or waiting for it to disappear",
+      "Feeling guilty for wanting a joyful life"
+    ],
+    "coaching_question": "What part of me is afraid to shine without apology?",
+    "practice": [
+      "Name one talent or quality you’ve been downplaying.",
+      "Let yourself enjoy something without self-judgment.",
+      "Say aloud: 'Joy is safe for me. My light is welcome here.'"
+    ],
+    "core_insight": "When you shine, your path becomes clear."
+  }
+},
+{
+  "name": "Judgement",
+  "image": "../images/rws-major/20-Judgement.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re resisting a calling or transformation that has been building for a long time. Part of you may fear leaving behind an old identity or stepping into a more expansive version of yourself. You might also be held back by guilt, self-judgment, or unresolved past narratives.",
+    "psychological_frame": "This individuation stage is about awakening — answering the call of your deeper self. Judgement represents integration, truth-telling, and rebirth. Resistance occurs when the past feels unfinished or when becoming your true self threatens an outdated role.",
+    "resistance_points": [
+      "Feeling unworthy of a new chapter",
+      "Holding onto old stories or shame",
+      "Ignoring a calling that keeps resurfacing",
+      "Fear of what others will think if you transform"
+    ],
+    "coaching_question": "What part of me is calling to rise — and what am I afraid it will cost?",
+    "practice": [
+      "Write a forgiveness statement to your past self.",
+      "Identify one truth you’re finally ready to admit.",
+      "Take a small step that aligns with your higher calling."
+    ],
+    "core_insight": "You’re being asked to answer your own awakening."
+  }
+},
+{
+  "name": "The World",
+  "image": "../images/rws-major/21-The-World.webp",
+  "meaning": {
+    "internal_block": "You may be stuck because you’re hovering at the threshold of completion — close to finishing, closing a chapter, or stepping into wholeness, but hesitant to actually cross the line. Part of you may fear endings, success, or the responsibility that comes with a new beginning after closure.",
+    "psychological_frame": "This individuation stage is about integration and fulfillment. The World represents mastery, completion, and the return to self. Resistance surfaces when finishing something feels emotional: letting go of old struggles, roles, or cycles can be surprisingly vulnerable.",
+    "resistance_points": [
+      "Fear of finishing a project or chapter",
+      "Feeling lost without a familiar struggle",
+      "Believing completion will take something away",
+      "Avoiding the next level of personal evolution"
+    ],
+    "coaching_question": "What completion am I postponing — and why?",
+    "practice": [
+      "Identify one task or chapter you know is ready to close.",
+      "Complete one small part of it today.",
+      "Mark the ending with a symbolic action or ritual."
+    ],
+    "core_insight": "Completion is not an ending — it’s arrival."
+  }
+}
+
 ]
