@@ -5,18 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardTitle = document.getElementById("card-title");
   const cardMeaning = document.getElementById("card-meaning");
 
-  // Detect which JSON to load based on page filename
-  let jsonFile = "";
+  // Detect the deck mode (jungian or stuck)
+  const isJungian = window.location.href.includes("jungian");
+  const isStuck = window.location.href.includes("stuck");
 
-  if (window.location.href.includes("jungian")) {
-    jsonFile = "jungian.json";
-  } else if (window.location.href.includes("stuck")) {
-    jsonFile = "stuck.json";
-  }
+  // Choose the right JSON file
+  let jsonFile = "";
+  if (isJungian) jsonFile = "jungian.json";
+  if (isStuck) jsonFile = "stuck.json";
 
   let cardData = [];
 
-  // Load the JSON
+  // Load JSON
   fetch(jsonFile)
     .then(response => response.json())
     .then(data => {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Error loading JSON:", err));
 
-  // Draw a card
+  // Draw card
   drawBtn.addEventListener("click", () => {
     if (cardData.length === 0) return;
 
@@ -32,50 +32,85 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cardImage.src = randomCard.image;
     cardTitle.textContent = randomCard.name;
-    const table = document.getElementById("card-table");
-const tbody = table.querySelector("tbody");
 
-// Clear old rows
-tbody.innerHTML = "";
+    // -------------------------------
+    // ⭐ JUNGIAN MODE ⭐
+    // -------------------------------
+    if (isJungian) {
+      const table = document.getElementById("card-table");
+      const tbody = table.querySelector("tbody");
 
-// Map label → JSON key
-const fields = [
-  ["Archetype", randomCard.archetype],
-  ["Psychological Role", randomCard.psychological_role],
-  ["Ego Status", randomCard.ego_status],
-  ["Symbolic Number", randomCard.symbolic_number],
-  ["Shadow Aspect", randomCard.shadow_aspect],
-  ["Spiritual Meaning", randomCard.spiritual_meaning],
-  ["Unconscious Connection", randomCard.unconscious_connection],
-  ["Journey Theme", randomCard.journey_theme],
-  ["Jungian Goal", randomCard.jungian_goal]
-];
+      tbody.innerHTML = "";
 
-fields.forEach(([label, value]) => {
-  const row = document.createElement("tr");
+      const fields = [
+        ["Archetype", randomCard.archetype],
+        ["Psychological Role", randomCard.psychological_role],
+        ["Ego Status", randomCard.ego_status],
+        ["Symbolic Number", randomCard.symbolic_number],
+        ["Shadow Aspect", randomCard.shadow_aspect],
+        ["Spiritual Meaning", randomCard.spiritual_meaning],
+        ["Unconscious Connection", randomCard.unconscious_connection],
+        ["Journey Theme", randomCard.journey_theme],
+        ["Jungian Goal", randomCard.jungian_goal]
+      ];
 
-  const labelCell = document.createElement("td");
-  labelCell.textContent = label;
+      fields.forEach(([label, value]) => {
+        const row = document.createElement("tr");
+        const labelCell = document.createElement("td");
+        const valueCell = document.createElement("td");
 
-  const valueCell = document.createElement("td");
-  valueCell.textContent = value;
+        labelCell.textContent = label;
+        valueCell.textContent = value;
 
-  row.appendChild(labelCell);
-  row.appendChild(valueCell);
-  tbody.appendChild(row);
-});
+        row.appendChild(labelCell);
+        row.appendChild(valueCell);
+        tbody.appendChild(row);
+      });
 
-table.style.display = "table";
+      table.style.display = "table";
 
+      // Show "View All" link
+      const viewAll = document.getElementById("view-all-jungian");
+      if (viewAll) viewAll.style.display = "block";
+
+      // Hide meaning paragraph
+      cardMeaning.style.display = "none";
+    }
+
+    // -------------------------------
+    // ⭐ STUCK MODE ⭐
+    // -------------------------------
+    if (isStuck) {
+      // STUCK JSON uses nested meaning object
+      cardMeaning.innerHTML = `
+        <strong>Internal Block:</strong> ${randomCard.meaning.internal_block}<br><br>
+        <strong>Psychological Frame:</strong> ${randomCard.meaning.psychological_frame}<br><br>
+
+        <strong>Where You May Be Resisting:</strong>
+        <ul>
+          ${randomCard.meaning.resistance_points.map(point => `<li>${point}</li>`).join("")}
+        </ul>
+
+        <strong>Coaching Question:</strong><br>
+        ${randomCard.meaning.coaching_question}<br><br>
+
+        <strong>Practice:</strong>
+        <ul>
+          ${randomCard.meaning.practice.map(step => `<li>${step}</li>`).join("")}
+        </ul>
+
+        <strong>Core Insight:</strong><br>
+        ${randomCard.meaning.core_insight}
+      `;
+
+      cardMeaning.style.display = "block";
+
+      // Hide Jungian table if present
+      const table = document.getElementById("card-table");
+      if (table) table.style.display = "none";
+    }
 
     resultBox.style.display = "block";
-
-        // ⭐ SHOW THE "VIEW ALL JUNGIANS" LINK ⭐
-    const viewAll = document.getElementById("view-all-jungian");
-    if (viewAll) {
-      viewAll.style.display = "block";
-    }
-    
     resultBox.scrollIntoView({ behavior: "smooth" });
   });
 });
