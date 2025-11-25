@@ -156,6 +156,10 @@ header a:hover {
   object-fit: cover; /* keeps it neat */
 }
 
+.card-page {
+  text-align: left;
+}
+
 .card-result {
   margin-top: 2rem;
   background: white;
@@ -172,6 +176,18 @@ header a:hover {
   height: auto;
   margin-bottom: 1rem;
 }
+
+#view-all-stuck {
+  text-align: left !important;
+  display: block !important;
+  margin-top: 1.5rem;
+}
+
+#view-all-stuck a {
+  color: var(--accent-purple) !important;
+  font-weight: 600;
+}
+
 
 .jungian-table {
   width: 100%;

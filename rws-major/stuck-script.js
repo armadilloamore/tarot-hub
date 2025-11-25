@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardTitle = document.getElementById("card-title");
   const cardMeaning = document.getElementById("card-meaning");
 
+  // ⭐ Add this line
+  const viewAllLink = document.getElementById("view-all-stuck");
+
   let cardData = [];
 
   // Load STUCK JSON
@@ -45,7 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <p>${card.meaning.core_insight}</p>
     `;
 
+    // Show the result container
     resultBox.style.display = "block";
-    resultBox.scrollIntoView({ behavior: "smooth" });
+
+    
   });
 });
