@@ -54,9 +54,9 @@ header a:hover {
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 0.5rem;
-  font-weight: 400;
+  font-weight: 700;
   color: #f3e5f5;
   font-family: 'Quicksand', sans-serif;
 }
