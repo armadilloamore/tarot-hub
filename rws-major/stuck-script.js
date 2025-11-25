@@ -21,20 +21,28 @@ document.addEventListener("DOMContentLoaded", () => {
     cardImage.src = card.image;
     cardTitle.textContent = card.name;
 
-    // Build STUCK meaning text
     cardMeaning.innerHTML = `
-      <strong>Internal Block:</strong> ${card.meaning.internal_block}<br><br>
-      <strong>Psychological Frame:</strong> ${card.meaning.psychological_frame}<br><br>
-      <strong>Where You May Be Resisting:</strong>
+      <h3>Internal Block</h3>
+      <p>${card.meaning.internal_block}</p>
+
+      <h3>Psychological Frame</h3>
+      <p>${card.meaning.psychological_frame}</p>
+
+      <h3>Where You May Be Resisting</h3>
       <ul>
-        ${card.meaning.resistance_points.map(p => `<li>${p}</li>`).join("")}
+        ${card.meaning.resistance_points.map(item => `<li>${item}</li>`).join("")}
       </ul>
-      <strong>Coaching Question:</strong><br>${card.meaning.coaching_question}<br><br>
-      <strong>Practice:</strong>
+
+      <h3>Coaching Question</h3>
+      <p>${card.meaning.coaching_question}</p>
+
+      <h3>Practice</h3>
       <ul>
         ${card.meaning.practice.map(step => `<li>${step}</li>`).join("")}
       </ul>
-      <strong>Core Insight:</strong><br>${card.meaning.core_insight}
+
+      <h3>Core Insight</h3>
+      <p>${card.meaning.core_insight}</p>
     `;
 
     resultBox.style.display = "block";
