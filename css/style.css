@@ -124,6 +124,31 @@ header a:hover {
   margin-top: 0.4rem;
 }
 
+.static-button {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--mid-purple);
+  border: 3px solid var(--pastel-azure);
+  color: var(--dark-purple);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.static-button:hover {
+  background-color: var(--pastel-azure);
+  border-color: var(--pastel-azure);
+  color: white;
+  transform: translateY(-2px);
+}
+
+
 .non-clickable {
   pointer-events: none;
   opacity: 1;
