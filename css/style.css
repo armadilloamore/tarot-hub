@@ -93,7 +93,7 @@ header a:hover {
 .deck-button:hover {
   background-color: var(--pastel-azure);
   border-color: var(--pastel-azure);
-  color: white;
+  color: var(--deep-purple);
 }
 
 .deck-button img {
