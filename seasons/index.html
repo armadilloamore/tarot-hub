@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seasons of the Heart Oracle</title>
+
+  <!-- CSS + fonts + favicon (same pattern as other pages) -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../favicon.png">
+</head>
+
+<body>
+
+  <header>
+    <a href="../index.html" class="logo-link">
+      <img src="../images/logo.webp" alt="Armadillo Amore Logo" class="site-logo">
+    </a>
+
+    <div class="your-deck-label">Your Deck</div>
+    <img src="../images/icons/seasons-icon.webp" alt="Seasons of the Heart Oracle" class="rounded" />
+
+    <h1>Seasons of the Heart Oracle</h1>
+    <p class="subtitle">Japanese-Inspired Emotional Values</p>
+
+    <a href="../index.html"><p>Choose a different deck</p></a>
+  </header>
+
+  <main>
+    <div class="draw-container" style="padding: 2rem; font-size: 1.2rem; color: var(--deep-purple);">
+      <p class="instruction">Click below to draw a card.</p>
+      <a href="#" id="draw-btn" class="deck-button" style="max-width: 300px; margin: 0 auto;">
+        Draw a Card
+      </a>
+
+      <div id="card-result" class="card-result" style="display:none;">
+        <img id="card-image" class="card-image" alt="Card Image">
+        <h2 id="card-title"></h2>
+        <p id="card-meaning"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Armadillo Amore</p>
+  </footer>
+
+  <!-- Seasons-specific JS -->
+  <script src="./script.js"></script>
+</body>
+</html>
