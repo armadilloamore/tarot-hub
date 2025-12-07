@@ -144,7 +144,7 @@ header a:hover {
 .static-button:hover {
   background-color: var(--pastel-azure);
   border-color: var(--pastel-azure);
-  color: white;
+  color: var(--deep-purple);
   transform: translateY(-2px);
 }
 
